@@ -27,4 +27,9 @@ public interface EventIterator extends AutoCloseable {
      *                               or its last result was {@code false}.
      */
     void remove();
+
+    /**
+     * @return number of events in iterator.
+     */
+    int size();
 }
